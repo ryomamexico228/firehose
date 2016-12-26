@@ -28,7 +28,20 @@
 </header>
 <hr>
 <br class="clear">
+<div class="container">
 <%= yield %>
+</div>
 
+<div class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to "This isn\'t enough" , "#" , class: 'next-quote' %>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+      Proudly hacked in Tel aviv, by <a href="http://thefirehoseproject.com">Ryoma &amp; Tsuboi</a><br>
+      Do you want to develop? <a href="http://thefirehoseproject.com">Learn more here</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>
