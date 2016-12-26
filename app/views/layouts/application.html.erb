@@ -7,7 +7,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<header>
+  <div class = "col-xs-3">
+    Logo
+  </div>
+  <div class="col-xs-4">
+    This is app
+  </div>
+  <div class="col-xs-5">
+    <%= link_to 'Contribute','#'%>
+    <%= link_to 'About', '#'%>
+  </div>
+</header>
+<br class="clear">
 <%= yield %>
 
 </body>
