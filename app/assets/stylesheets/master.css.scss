@@ -1,7 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
+@media (max-width: 750px){
+  .footer-blurb{
+  text-aligin:left;
+  }
+}
 
 header{
   border-top:9px solid #222222; 
@@ -72,4 +76,15 @@ font-family: 'alex_brushregular';
 .logo:hover{
   text-decoration:none;
 }
+.modal{
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-style: italic;  
+}
 
+h2 span {
+  color: #dddddd
+}
+
+::selection{
+  background-color: #f84342
+}
